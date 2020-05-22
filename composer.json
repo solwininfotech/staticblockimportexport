@@ -1,0 +1,22 @@
+{
+    "name": "solwin/staticblockimportexport",
+    "description": "Magento 2 Static Block Import/Export extension is useful import and export static block from an old site to new site. It makes easy to transfer static block without any core file change.",
+    "type": "magento2-module",
+    "version": "1.0.3",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\StaticBlockImportExport\\": ""
+        }
+    }
+}
